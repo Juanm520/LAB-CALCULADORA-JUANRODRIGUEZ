@@ -48,13 +48,13 @@ if (operator === "*") {
 }
 
 // Bonus: Maneja el caso donde el segundo número es 0 durante la división
-// Si el operador no es válido, almacena "Operador inválido" en el resultado
 if (operator === "/" && num2 !== 0) {
     result = num1 / num2;
 } else if (operator === "/" && num2 === 0) {
     result = "No se puede dividir por cero";
 } 
 
+// Si el operador no es válido, almacena "Operador inválido" en el resultado
 if (operator !== "+" && operator !== "-" && operator !== "*" && operator !== "/") {
     result = "Operador inválido";
 }
